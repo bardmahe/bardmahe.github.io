@@ -1,0 +1,63 @@
+<style>
+    .bulle {
+        width: 200px;
+        height: 200px;
+        border-radius: 200px;
+        background: red;
+        position: absolute;
+    }
+
+    .bulle1 {
+        animation: move1 3s linear infinite alternate;
+    }
+
+    .bulle2 {
+        animation: move2 1s linear infinite alternate;
+    }
+
+    .bulle3 {
+        animation: move3 5s linear infinite alternate;
+    }
+
+    @keyframes move1 {
+        0% { transform: translateX(0) translateY(0); }
+        20% { transform: translateX(10px) translateY(10px) }
+        40% { transform: translateX(-5px) translateY(8px) }
+        60% { transform: translateX(0) translateY(0) }
+        80% { transform: translateX(20px) translateY(-5px) }
+    }
+    @keyframes move2 {
+        0% { transform: translateX(20px) translateY(-5px) }
+        20% { transform: translateX(10px) translateY(10px) }
+        40% { transform: translateX(0) translateY(0) }
+        60% { transform: translateX(-5px) translateY(8px) }
+        80% { transform: translateX(10px) translateY(-5px) }
+    }
+    @keyframes move3 {
+        0% { transform: translateX(8px) translateY(-5px) }
+        20% { transform: translateX(15px) translateY(15px) }
+        40% { transform: translateX(-3px) translateY(12px) }
+        60% { transform: translateX(0) translateY(-5px) }
+        80% { transform: translateX(20px) translateY(-5px) }
+    }
+
+    #bulle1 { top: 50px; left: 60px; }
+    #bulle2 { top: 500px; left: 600px; }
+    #bulle3 { top: 100px; left: 550px; }
+    #bulle4 { top: 612px; left: 125px; }
+    #bulle5 { top: 100px; left: 250px; }
+    #bulle6 { top: 129px; left: 751px; }
+    #bulle7 { top: 354px; left: 354px; }
+    #bulle8 { top: 199px; left: 278px; }
+    #bulle9 { top: 568px; left: 128px; }
+</style>
+
+<div class="bulle bulle1" id="bulle1"></div>
+<div class="bulle bulle1" id="bulle2"></div>
+<div class="bulle bulle1" id="bulle3"></div>
+<div class="bulle bulle2" id="bulle4"></div>
+<div class="bulle bulle2" id="bulle5"></div>
+<div class="bulle bulle2" id="bulle6"></div>
+<div class="bulle bulle3" id="bulle7"></div>
+<div class="bulle bulle3" id="bulle8"></div>
+<div class="bulle bulle3" id="bulle9"></div>

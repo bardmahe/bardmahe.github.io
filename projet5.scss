@@ -1,0 +1,165 @@
+$rose: #F4C5DA;
+$bleu: #1D2E59;
+$mauve: #4F55C0;
+
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Kanit',sans-serif;
+	background-color: $rose;
+}
+
+
+
+nav{
+	background-color: #F4C5DA;
+	height: 100px; 
+	widht: 100%;
+}
+
+.logo img{
+	width: 80px;
+	line-height: 70px;
+	padding-top: 10px;
+	padding-left: 20px;
+}
+
+
+
+
+.titre {
+	font-family: 'Nerko One', cursive;
+	text-align: center;
+	color: $bleu;
+	font-size: 80px;
+	font-weight: 900;
+}
+
+
+.lesdessinstel{
+	display: none;
+}
+
+@media(max-width: 768px){
+	
+	.lesdessins{
+	display: none;
+	}
+
+	.lesdessinstel{
+	display: block;
+	margin-top: 40px;
+	}
+
+
+	.titre h1{
+	font-famiy: 'Kanit',sans-serif;
+	text-align: center;
+	color: $bleu;
+	font-size: 30px;
+	font-weight: 900;
+
+
+}
+}
+
+
+
+.texte{
+
+	h2{
+	font-size: 35px;
+	color: $bleu;
+	padding-left: 350px;
+	}
+	
+	p{
+    width: 1200px;
+	font-size: 20px; 
+	color: $bleu;
+	margin:0 auto;
+
+	}
+
+	strong a{
+	color: $bleu;
+	text-decoration : underline;
+	}
+
+	strong a:hover{
+	text-decoration: none;
+	}
+}
+
+
+
+
+
+
+@media(max-width: 768px){
+	
+	.texte{
+	
+	h2{
+	font-size: 22px;
+	padding-left: 60px;
+	}
+
+
+	p{
+	width: 300px;
+	color: $bleu;
+	margin:0 auto;
+	font-size: 14px;
+
+	}
+	}
+
+	strong a{
+	color: $bleu;
+	text-decoration : underline;
+	}
+
+	strong a:hover{
+	text-decoration: none;
+	}
+
+
+
+}
+
+
+.post{
+	padding-top: 30px;
+	text-align: center;
+
+}
+
+.post1 img{
+	width: 1400px;
+	padding: 20px;
+}
+
+.post2 img{
+	width: 1400px;
+	padding: 20px;
+}
+
+
+@media(max-width: 768px){
+	
+.post1 img{
+	width: 300px;
+}
+
+.post2 img{
+	width: 300px;
+}
+}
+

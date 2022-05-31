@@ -1,0 +1,142 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Kanit',sans-serif;
+  background-color: #F4C5DA; }
+
+nav {
+  background-color: #F4C5DA;
+  height: 100px;
+  widht: 100%; }
+
+.logo img {
+  width: 80px;
+  line-height: 70px;
+  padding-top: 10px;
+  padding-left: 20px; }
+
+.titre {
+  font-family: 'Nerko One', cursive;
+  text-align: center;
+  color: #1D2E59;
+  font-size: 80px;
+  font-weight: 900; }
+
+.lesdessinstel {
+  display: none; }
+
+@media (max-width: 768px) {
+  .lesdessins {
+    display: none; }
+
+  .lesdessinstel {
+    display: block;
+    margin-top: 40px; }
+
+  .titre h1 {
+    font-famiy: 'Kanit',sans-serif;
+    text-align: center;
+    color: #1D2E59;
+    font-size: 20px;
+    font-weight: 900; } }
+.texte h2 {
+  font-size: 35px;
+  color: #1D2E59;
+  padding-left: 350px; }
+.texte p {
+  width: 1200px;
+  font-size: 20px;
+  color: #1D2E59;
+  margin: 0 auto; }
+.texte strong a {
+  color: #1D2E59;
+  text-decoration: underline; }
+.texte strong a:hover {
+  text-decoration: none; }
+
+@media (max-width: 768px) {
+  .texte h2 {
+    font-size: 22px;
+    padding-left: 60px; }
+  .texte p {
+    width: 300px;
+    color: #1D2E59;
+    margin: 0 auto;
+    font-size: 14px; }
+
+  strong a {
+    color: #1D2E59;
+    text-decoration: underline; }
+
+  strong a:hover {
+    text-decoration: none; } }
+.photoshop {
+  padding-top: 20px;
+  text-align: center; }
+
+.photoshop img {
+  width: 800px; }
+
+.photoshop2 {
+  text-align: center;
+  padding-top: 30px; }
+
+.photoshop2 img {
+  width: 420px;
+  padding: 20px; }
+
+.post {
+  padding-top: 30px;
+  text-align: center; }
+
+.post1 img {
+  width: 400px;
+  padding: 20px; }
+
+.id {
+  text-align: center;
+  padding-top: 30px; }
+
+.id1 img {
+  width: 1200px; }
+
+illustrator {
+  padding-top: 30px;
+  text-align: center; }
+
+.illustrator img {
+  width: 500px; }
+
+.illustrator2 {
+  text-align: center;
+  padding-top: 30px; }
+
+.illustrator2 img {
+  width: 200px;
+  padding: 20px; }
+
+@media (max-width: 768px) {
+  .photoshop img {
+    width: 260px; }
+
+  .photoshop2 img {
+    width: 300px; }
+
+  .post1 img {
+    width: 300px; }
+
+  .id1 img {
+    width: 350px; }
+
+  .illustrator img {
+    width: 260px; }
+
+  .illustrator2 img {
+    width: 250px; } }
+
+/*# sourceMappingURL=projet2.css.map */

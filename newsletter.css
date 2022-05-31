@@ -1,0 +1,190 @@
+body{
+	width: 600px;
+	height: 1000px;
+	margin: 0 auto;
+
+}
+
+#logo{
+	position: absolute;
+	margin: 10px 0 0 220px;
+}
+
+#rectangle-bleu2 {
+	width: 600px;
+	height: 150px;
+	background: #83B2E0;
+}
+
+
+
+#text{
+	margin: 0 auto;
+	background-color: #0B4878;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	font-weight: 700; 
+	color: white;
+	font-size: 22px;
+	text-align: center;
+	padding-left: 5px;
+	padding-top: 2px;
+}
+
+#titre{
+	margin: 0 auto;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	font-weight: 700; 
+	color: #0B4878;
+	font-size: 30px;
+	text-align: center;
+	padding-left: 5px;
+}
+
+#titre2{
+	margin: 0 auto;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	font-weight: 700; 
+	color: #0B4878;
+	font-size: 30px;
+	text-align: center;
+	padding-left: 5px;
+}
+
+#entrepot img{
+	margin-left: 45px;
+}
+
+#button1{
+	background-color: #0B4878;
+	margin-left: 40%;
+	margin-top: 5%;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+	border-radius: 50px;
+	padding : 10px;
+	border: none;
+}
+
+#button1:hover{
+	background-color: #DEB50E; 
+	text-decoration: none;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+a:hover{
+	text-decoration: none;
+	color: white;
+}
+
+#enfants img{
+	margin-top: 5px;
+	margin-left: 45px;
+}
+
+#button2{
+	background-color: #0B4878;
+	margin-left: 41%;
+	margin-top: 1%;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+	border-radius: 50px;
+	padding : 10px;
+	border: none;
+}
+
+#button2:hover{
+	background-color: #DEB50E; 
+	text-decoration: none;
+}
+
+
+#contact{
+	position: relative;
+	margin: 0 auto;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	font-weight: 500; 
+	color: #0B4878;
+	font-size: 30px;
+	text-align: center;
+	padding-left: 5px;
+	background-color: #83B2E0;
+
+}
+
+#contact p{
+	margin-top: 1px;
+	word-spacing: 110px;
+}
+
+#contact img{
+	margin-top: -60px;
+	padding: 0px 122px 0 122px;
+}
+
+#logo2 {
+	margin-left: 245px;
+}
+
+#lien a{
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	font-weight: 400; 
+	color: black;
+	font-size: 20px;
+	text-align: center;
+	padding-left: 5px;
+	margin-left: 250px;
+}
+
+#lien a:hover{
+	color:#DEB50E ;
+}
+
+#lien hr{
+	margin-top: 0.5px;
+	width: 90px;
+}
+
+#voir{
+	position: relative;
+	margin: 0 auto;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	font-weight: 700; 
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	padding-left: 5px;
+	background-color: #DEB50E;
+	margin-top: 20px;
+}
+
+#voir a:hover{
+	color: #0B4878;
+}
+
+#desabonner a{
+
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	font-weight: 400; 
+	color: black;
+	font-size: 15px;
+	text-align: center;
+	padding-left: 5px;
+	margin-left: 250px;
+
+}
+
+#desabonner a:hover{
+
+	color: red;
+}
+
+#bloc{
+	width: 600px;
+	background-color: #EDE5C0;
+}
